@@ -9,7 +9,7 @@
   "layer":[{"mark": {"type": "bar", "width": {"band": 0.1}},
             "encoding": {
             "x": {"field": "Region", "type": "nominal", "axis": {"labelAngle": 0}},
-           "y": {"field": "Total Deaths per 100k pop", "type": "quantitative"},
+           "y": {"field": "Total Deaths per 100k pop", "type": "quantitative","title": "Total Deaths per 100k people"},
            "color": {
                 "field": "Region","type": "nominal", "title":"Countries"
             }
