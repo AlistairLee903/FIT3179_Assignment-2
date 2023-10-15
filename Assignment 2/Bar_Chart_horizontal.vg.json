@@ -1,36 +1,36 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Total Covid-19 New Cases Reported Weekly (2020-2022)",
-    "description": "Bar Chart",
-    "width": 500,
-    "height": 300,
-    "data": {
-      "url": "https://raw.githubusercontent.com/AlistairLee903/Covid_data_latt_long/main/Covid-19_merged%20with%20latt%20and%20long.csv"
-    },
-    "layer": [
-      {
-        "mark": {"type": "bar", "width": {"band": 0.1}},
-        "encoding": {
-          "x":{"field": "New Cases (7 days)", "type": "quantitative", "axis":
-          {"labelAngle": 0}},
-          "y":{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Total Covid-19 New Cases Reported Weekly (2020-2022)",
+  "description": "Bar Chart",
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/AlistairLee903/Covid_data_latt_long/main/Covid-19_merged%20with%20latt%20and%20long.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "width": {"band": 0.1}},
+      "encoding": {
+        "x":{"field": "New Cases (7 days)", "type": "quantitative", "axis":
+        {"labelAngle": 0}, "title": "New Cases Weekly"},
+        "y":{
+          "field": "Region",
+          "type": "nominal",
+          "axis": {"title": "Region"}
+          },
+          "color": {
             "field": "Region",
             "type": "nominal",
-            "axis": {"title": "Region"}
-            },
-            "color": {
-              "field": "Region",
-              "type": "nominal",
-              "title": "Countries"
-            }
-  
+            "title": "Countries"
           }
-  
+
         }
-  
-  ]
-  
-  }
+
+      }
+
+]
+
+}
               
             
       
