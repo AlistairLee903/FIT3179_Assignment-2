@@ -45,7 +45,8 @@
       "x": {
         "field": "New Cases (7 days)",
         "type": "quantitative",
-        "scale": {"type": "log","domain": [1,740000]}
+        "scale": {"type": "log","domain": [1,740000]},
+        "title": "New cases weekly"
       },
       "size": {"field": "Total Deaths", "type": "quantitative"},
       "color": {
